@@ -39,13 +39,16 @@ body{
     transform: rotate(90deg);
     transform-origin: 100%; 
     /* by default it is 50%. we do it 100 so that it can move from origin */
-
+    
     /* Transition */
     
     /* transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.17, -0.32, 0.36, 0.69) */
 }
-
+.hour{
+    width: 35%;
+    left: 15%; 
+}
 .sec{
     background: red;
     height: 3px;
